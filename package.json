@@ -1,0 +1,47 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./app/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-ignition": "^0.15.11",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.11",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.14",
+    "@nomicfoundation/ignition-core": "^0.15.11",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.3.20",
+    "@types/express": "^5.0.2",
+    "@types/mocha": "^10.0.10",
+    "chai": "^4.5.0",
+    "ethers": "^5.8.0",
+    "hardhat": "^2.24.1",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solidity-coverage": "^0.8.16",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.2",
+    "@nestjs/core": "^11.1.2",
+    "@nestjs/platform-express": "^11.1.2",
+    "@openzeppelin/contracts": "^5.3.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "megadb": "^3.4.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  }
+}
